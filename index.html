@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trésor Residence – Lançamento em Campinas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header, section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header {
+      background: linear-gradient(to right, #0e4d92, #2b88d8);
+      color: white;
+    }
+    h1, h2 {
+      margin-bottom: 10px;
+    }
+    .cta-button {
+      padding: 12px 25px;
+      background-color: #ffcc00;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    .features, .plants, .amenities, .location-details {
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: left;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "\2713";
+      margin-right: 10px;
+      color: green;
+    }
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: left;
+    }
+    form input, form select, form button {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    footer {
+      padding: 20px;
+      text-align: center;
+      background-color: #eee;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Trésor Residence – Viva o Extraordinário em Campinas</h1>
+    <p>Apartamentos de 80m² e 100m² no Jardim Flamboyant, ao lado do Shopping Iguatemi</p>
+    <a href="#cadastro" class="cta-button">Quero receber mais informações</a>
+  </header>
+
+  <section>
+    <h2>Sobre o Empreendimento</h2>
+    <div class="features">
+      <p>O Trésor Residence é um projeto exclusivo com 2 torres, apartamentos amplos e lazer completo.</p>
+      <ul>
+        <li>80m² (2 dormitórios) e 100m² (3 dormitórios)</li>
+        <li>Suíte + banheiro social + lavabo</li>
+        <li>Varanda gourmet integrada à sala</li>
+        <li>2 vagas de garagem</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Tipos de Planta</h2>
+    <div class="plants">
+      <h3>Planta 80m²</h3>
+      <ul>
+        <li>2 Dormitórios (1 suíte)</li>
+        <li>Banheiro social + lavabo</li>
+        <li>Sala integrada com varanda gourmet</li>
+      </ul>
+
+      <h3>Planta 100m²</h3>
+      <ul>
+        <li>3 Dormitórios (1 suíte)</li>
+        <li>Banheiro social + lavabo</li>
+        <li>Ampla sala com varanda gourmet</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Lazer Completo</h2>
+    <div class="amenities">
+      <ul>
+        <li>2 Casas de Campo com Piscina Privativa</li>
+        <li>Piscinas adulto e infantil</li>
+        <li>Academia equipada</li>
+        <li>Quadra de beach tênis</li>
+        <li>Espaço gourmet e churrasqueiras</li>
+        <li>Brinquedoteca e playground</li>
+        <li>Salão de festas</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Localização</h2>
+    <div class="location-details">
+      <p>Localizado no Jardim Flamboyant, a 3 minutos do Shopping Iguatemi.</p>
+      <ul>
+        <li>Próximo à Av. José Bonifácio e Rod. Dom Pedro</li>
+        <li>Região valorizada, com infraestrutura completa</li>
+      </ul>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.0013683432997!2d-47.06258198503457!3d-22.917280184996156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c70c6470c9eb%3A0x4b474f69f0f3a7f3!2sShopping%20Iguatemi%20Campinas!5e0!3m2!1spt-BR!2sbr!4v1615387251483!5m2!1spt-BR!2sbr"
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <section id="cadastro">
+    <h2>Cadastre-se para saber mais</h2>
+    <p>Receba informações e condições exclusivas do pré-lançamento</p>
+    <form>
+      <input type="text" name="nome" placeholder="Nome completo" required>
+      <input type="email" name="email" placeholder="E-mail" required>
+      <input type="tel" name="telefone" placeholder="WhatsApp" required>
+      <select name="interesse">
+        <option value="">Selecione seu interesse</option>
+        <option value="2 dormitórios">2 Dormitórios</option>
+        <option value="3 dormitórios">3 Dormitórios</option>
+      </select>
+      <button type="submit">Quero ser avisado com exclusividade</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Trésor Residence. Todos os direitos reservados. | Seus dados estão seguros conforme a LGPD.</p>
+  </footer>
+
+</body>
+</html>
